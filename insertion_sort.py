@@ -14,7 +14,6 @@ def insertion_sort(lst):
 def main():
 
     l = [4,6,2,3,1]
-    g = [4,1,6,4,3]
     print(insertion_sort(l))
 
 main()  
