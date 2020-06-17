@@ -11,9 +11,7 @@ class Stack:
         return self.size
 
     def isEmpty(self):
-        if self.size==0:
-            return True
-        return False
+        return self.size == 0
 
     # get the number of elements of the stack
     def push(self, value):
