@@ -1,11 +1,17 @@
 class Node:
 
+    """ This is a Node class with only a constructor.
+    """
+
     def __init__(self, data):
         self.data = data 
         self.next = None 
     
 
 class LinkedList():
+
+    """ This is a Linked List class with several methods.
+    """
 
     def __init__(self):
         self.head = None 
